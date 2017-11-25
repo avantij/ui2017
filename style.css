@@ -1,0 +1,31 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-color: #FAF2EB !important;
+}
+#header {
+	background-color: #1C274A;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	color: white;
+	margin-bottom: 0px; 
+}
+
+#navbar {
+	padding-top: 0px; 
+	margin-top: 0px; 
+}
+
+#bg {
+	background-color: #BF445A;
+}
+
+.footer {
+	margin-top: 100%;
+	background-color: #1C274A;
+	padding-top: 10%;
+
+}
