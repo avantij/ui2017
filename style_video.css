@@ -1,0 +1,67 @@
+.btn-outline,
+.btn-outline:hover {
+  border-color: currentcolor;
+}
+
+.btn-outline {
+  border-radius: var(--border-radius);
+}
+
+.btn-outline:hover {
+  box-shadow: inset 0 0 0 20rem var(--darken-1);
+}
+
+.btn-outline:active {
+  box-shadow: inset 0 0 0 20rem var(--darken-2),
+    inset 0 3px 4px 0 var(--darken-3),
+    0 0 1px var(--darken-2);
+}
+
+.btn-outline:disabled,
+.btn-outline.is-disabled {
+  opacity: .5;
+}
+
+
+/*COSAS PA LOS BUTTONS*/
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button_round {border-radius: 8px;}
+.button_red {
+    background-color: #bf445a; 
+    color: white; 
+    border: 2px solid white;
+}
+.button_pressed {
+    background-color: white; 
+    color: #bf445a; 
+    border: 2px solid #bf445a;
+}
+
+.button_red:hover {
+    background-color: #8bc7ca;
+    color: white;
+	
+}
+.button_red:active:after {
+    background-color: white; 
+    color: #bf445a; 
+    border: 2px solid #bf445a;
+}
+/*FIN DE COSAS PA LOS BUTTONS*/
+
+
+/*Miniclases*/
+.no_display{display: none;}
+.do_display{display: block;}
+.cursor_pointer{cursor: pointer;}
