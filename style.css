@@ -4,7 +4,8 @@
 }
 
 body {
-	background-color: #FAF2EB !important;
+	background-color: #FFFFFF !important;
+	color: white;
 }
 #header {
 	background-color: #1C274A;
@@ -14,18 +15,88 @@ body {
 	margin-bottom: 0px; 
 }
 
+
+.container{
+	max-width: 970px;
+}
+
 #navbar {
 	padding-top: 0px; 
 	margin-top: 0px; 
 }
 
 #bg {
+	/*background-color: #BF445A;*/
 	background-color: #BF445A;
 }
 
 .footer {
-	margin-top: 100%;
+	margin-top: 5%;
 	background-color: #1C274A;
-	padding-top: 10%;
+	padding-top: 5%;
+	width: 100%;
 
+}
+
+.rowvid {
+	width: 105%;
+	height: 105%;
+}
+
+.views{
+	display: inline;
+}
+
+video:hover {
+   opacity: 0.5;
+}
+
+.tall {
+	height: 30px;
+	margin-top: 0px;
+	margin-bottom: 15px; 
+
+}
+
+hr {
+	width: 100%;
+}
+
+#cta {
+	margin-left: 20%;
+}
+
+.fa {
+	margin-bottom: 5%;
+	color: white;
+	margin-right: 10%;
+}
+
+#facebook {
+	margin-left: 38%;
+}
+
+h2 {
+	color: black !important;
+}
+h6 {
+	display: inline-block;
+	color: black !important;
+}
+
+p{
+	color:gray !important;
+}
+
+.fa-heart {
+	display: inline-block;
+	color: gray;
+	float: right;
+	padding-top: 5px;
+}
+.fa-eye{
+	color: black;
+	display: inline-block;
+	float: right;
+	padding-top: 5px;
 }
