@@ -1,0 +1,44 @@
+#bg{
+
+	background-color: #BF445A;
+
+}
+
+#chunky{
+	display: none;
+}
+
+
+
+#loginBox{
+	margin: 1%;
+	border: 5px;
+	margin-left: 5%;
+	margin-top: 2%;
+	color: #1C274A;
+	border-radius: 20px;
+}
+
+#registerthing{
+	display: inline-block;
+	float: right;
+	margin-left: 5%;
+	margin-top: 2%;
+	border: 5px;
+	color: white;
+	background-clip: border-box;
+	background-color: #1C274A;
+	opacity: .8;
+	border-radius: 20px;
+	padding-bottom: 10px;
+}
+
+#theButt{
+	background-color:  #BF445A;
+	border-color: #BF445A;
+}
+
+#secondButt{
+	background-color:  #BF445A;
+	border-color: #BF445A;
+}

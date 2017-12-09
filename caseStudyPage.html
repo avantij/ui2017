@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Register Page</title>
+
+	<meta charset = "utf-8">
+	<meta name = "viewport" content="width=device-width, initial-scale=1, shrink-to-fit nc">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="caseStudyJav.js"></script>
+	<link rel="stylesheet" type="text/css" href="caseStudyStyle.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+</head>
+
+<body>
+	<div class= "row" style="background-color: #1C274A;">
+	<div class="col-md-4">
+		<h1 style="color:white;"> MiraiTV </h1>
+	</div>
+	<div class="col-md-5"></div>
+</div>
+
+ <nav class="navbar navbar-expand-lg navbar-light" id="bg">
+  <a class="navbar-brand" href="#">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbar">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Help</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Categories
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action & Adventure</a>
+          <a class="dropdown-item" href="#">Comedy</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Explore More</a>
+        </div>
+      </li>
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<div class="row">
+
+
+<div class="col-md-5" id="registerthing" >
+	<form class="form-horizontal">
+		<div class="legend">
+			<h1 class="form-signin-heading"> Sign Up Now </h1>
+			<p> Complete the form below for instant access. </p>
+		</div>
+		<div class="row">
+			<div class="col">
+				<label for="firstName" class="fname">First Name *</label>
+				<input type="firstName" id="inputFname" class="form-control" placeholder="Your First Name">
+			</div>
+			<div class="col">
+				<label for="lastName" class="lname">Last Name * </label>
+				<input type="lastName" id="inputLname" class="form-control" placeholder="Your Last Name">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<label for="email" class="email1">Email * </label>
+				<input type="eMail" id="inputEmail" class="form-control" placeholder="Your Email">
+			</div>
+			<div class="col">
+				<label for="userName" class="uname">Username *</label>
+				<input type="username" id="inputUsername" class="form-control" placeholder="Username" >
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<label for="password" class="pWord">Password *</label>
+				<input type="passwerd" id="inputPassword" class="form-control" placeholder="New Password">
+			</div>
+			<div class="col">
+				<label for="secPassword" class="secPword">Confirm Password *</label>
+				<input type="secondPassword" id="inputSecPword" class="form-control" placeholder="Confirm Password">
+			</div>
+		</div>
+		<br>
+		<div class="form-group">
+				<label for="exampleFormControlFile1"> Upload a Profile Picture </label>
+				<input type="file" class="form-control-file" id="exampleFormControlFile1">
+			</div>
+
+		<div class="form-group">
+			<label for="selectPremium"> Upgrade to Premium? * </label>
+			<select class="form-control" id="selectPremOption">
+				<option selected="true" disabled="disabled">Select</option>
+				<option value="val1">Yes</option>
+				<option value="val2"> No </option>
+			</select>
+			<br>
+<div id="chunky">
+		<h1 class="form-signin-heading"> Make a Premium Account </h1>
+		<p> Complete payment below to be a premium member. </p>
+		<h4> Billing Information </h4>
+		<div class="row">
+			<div class="col">
+				<label for="firstName" class="fname">First Name *</label>
+				<input type="firstName" id="inputFname" class="form-control" placeholder="Your First Name">
+			</div>
+			<div class="col">
+				<label for="lastName" class="lname">Last Name * </label>
+				<input type="lastName" id="inputLname" class="form-control" placeholder="Your Last Name">
+			</div>
+		</div>
+		
+			
+				<label for="address" class="streetAddress">Address * </label>
+				<input type="address" id="inputAddress" class="form-control" placeholder="Street">
+
+
+			
+			<div class="row">
+				<div class="col">
+				<label for="country" class="countree">Country * </label>
+				<input type="country" id="inputCountry" class="form-control" placeholder="Country">
+			</div>
+			<div class="col">
+				<label for="city" class="citee">City *</label>
+				<input type="cityy" id="inputCity" class="form-control" placeholder="City">
+			</div>
+			<div class="col">
+				<label for="zip" class="zipCode">Zip Code * </label>
+				<input type="zipcode" id="inputZipcode" class="form-control" placeholder="Zipcode">
+			</div>
+		</div>
+		<br>
+
+			<label for="paymentMethod"> Payment Method* </label>
+			<select class="form-control" id="selectPremOption">
+				<option selected="true" disabled="disabled">Select</option>
+				<option>Credit Card</option>
+				<option>Paypal </option>
+			</select>
+
+			<div class="row">
+				<div class="col">
+				<label for="number" class="cardNum">Card Number * </label>
+				<input type="cnum" id="inputCardNum" class="form-control" placeholder="16-digit number">
+			</div>
+			<div class="col">
+				<label for="valid" class="validity">Valid Thru *</label>
+				<input type="expiration" id="inputDate" class="form-control" placeholder="mm/yy">
+			</div>
+			<div class="col">
+				<label for="secCode" class="threedigit">Valid Thru *</label>
+				<input type="securityCode" id="inputSecCode" class="form-control" placeholder="CVV">
+			</div>
+		</div>
+
+</div>
+		
+	
+			
+		</div>
+		<br>
+		<div class="control-group">
+			<div class="controls">
+				<button id="theButt" class="btn btn-success">Register</button>
+			</div>
+		</div>
+	</form>
+</div>
+
+<div class="col-md-5" id="loginBox">
+<form class="form-horizontal">
+	<div class="legend">
+	<h1 class="form-signin-heading"> Login </h1>
+</div>
+<label for="userName" class="uname">Username</label>
+<input type="username" id="inputUsername" class="form-control" placeholder="Username" >
+
+<label for="password" class="pWord">Password </label>
+<input type="passwerd" id="inputPassword" class="form-control" placeholder="New Password">
+<br>
+
+<div class="control-group">
+	<div class="controls">
+		<button id="secondButt" class="btn btn-success">Log In</button>
+	</div>
+</div>
+</form>
+</div>
+
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+</body>
+</html>
